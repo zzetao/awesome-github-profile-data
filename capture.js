@@ -5,7 +5,7 @@ const minWindinHeight = 800
 
 module.exports = async function capture(urls = [], successCallback) {
     if (urls.length === 0) return
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
 
     for (let i = 0; i < urls.length; i++) {
         let url = urls[i]
