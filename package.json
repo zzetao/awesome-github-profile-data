@@ -1,0 +1,26 @@
+{
+  "name": "awesome-github-profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "capture": "node index.js"
+  },
+  "dependencies": {
+    "@dimerapp/markdown": "^3.2.2",
+    "puppeteer": "^5.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzetao/awesome-github-profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzetao/awesome-github-profile/issues"
+  },
+  "homepage": "https://github.com/zzetao/awesome-github-profile#readme"
+}
