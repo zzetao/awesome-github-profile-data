@@ -69,7 +69,17 @@ function getDataJSON() {
 }
 
 function convertUrl(url) {
-    return url.slice(0, url.lastIndexOf('/'))
+    if (!url) return url
+    let arr = url.split('/')
+    let username = ''
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === 'github.com') {
+            username = arr[i + 1]
+            break
+        }
+    }
+
+    return `https://github.com/${username}`
 }
 
 function arrayDiff(left = [], right = []) {
