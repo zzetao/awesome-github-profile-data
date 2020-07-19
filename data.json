@@ -57,6 +57,20 @@
         "hasGif": false,
         "filePath": "screenshots/maddhruv.jpeg",
         "timestamp": 1595164678547
+      },
+      {
+        "githubUrl": "https://github.com/thmsgbrt",
+        "nickName": "Thomas Guibert",
+        "hasGif": false,
+        "filePath": "screenshots/thmsgbrt.jpeg",
+        "timestamp": 1595166541329
+      },
+      {
+        "githubUrl": "https://github.com/bdougie",
+        "nickName": "Brian Douglas",
+        "hasGif": true,
+        "filePath": "screenshots/bdougie.jpeg",
+        "timestamp": 1595166545118
       }
     ]
   },
