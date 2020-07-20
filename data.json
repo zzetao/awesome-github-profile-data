@@ -71,6 +71,20 @@
         "hasGif": true,
         "filePath": "screenshots/bdougie.jpeg",
         "timestamp": 1595166545118
+      },
+      {
+        "githubUrl": "https://github.com/guilyx",
+        "nickName": "Erwin Lejeune",
+        "hasGif": false,
+        "filePath": "screenshots/guilyx.jpeg",
+        "timestamp": 1595215223237
+      },
+      {
+        "githubUrl": "https://github.com/JessicaLim8",
+        "nickName": "Jessica Lim",
+        "hasGif": false,
+        "filePath": "screenshots/JessicaLim8.jpeg",
+        "timestamp": 1595215226541
       }
     ]
   },
@@ -123,6 +137,13 @@
         "hasGif": false,
         "filePath": "screenshots/ashbakernz.jpeg",
         "timestamp": 1595164709324
+      },
+      {
+        "githubUrl": "https://github.com/anmol098",
+        "nickName": "Anmol Singh",
+        "hasGif": false,
+        "filePath": "screenshots/anmol098.jpeg",
+        "timestamp": 1595215233494
       }
     ]
   },
@@ -278,6 +299,13 @@
         "hasGif": false,
         "filePath": "screenshots/f.jpeg",
         "timestamp": 1595165453591
+      },
+      {
+        "githubUrl": "https://github.com/C9-LinkRs",
+        "nickName": "Johnny Villegas",
+        "hasGif": false,
+        "filePath": "screenshots/C9-LinkRs.jpeg",
+        "timestamp": 1595215237417
       }
     ]
   },
@@ -391,6 +419,13 @@
         "hasGif": false,
         "filePath": "screenshots/gkhan205.jpeg",
         "timestamp": 1595165459165
+      },
+      {
+        "githubUrl": "https://github.com/amxchang",
+        "nickName": "amxchang",
+        "hasGif": false,
+        "filePath": "screenshots/amxchang.jpeg",
+        "timestamp": 1595215240447
       }
     ]
   },
@@ -518,6 +553,13 @@
         "hasGif": true,
         "filePath": "screenshots/aemmadi.jpeg",
         "timestamp": 1595165007949
+      },
+      {
+        "githubUrl": "https://github.com/br3ndonland",
+        "nickName": "Brendon Smith",
+        "hasGif": false,
+        "filePath": "screenshots/br3ndonland.jpeg",
+        "timestamp": 1595215244648
       }
     ]
   },
