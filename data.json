@@ -106,6 +106,13 @@
         "hasGif": false,
         "filePath": "screenshots/moepoi.jpeg",
         "timestamp": 1595375379109
+      },
+      {
+        "githubUrl": "https://github.com/qu4k",
+        "nickName": "Filippo Rossi (qu4k)",
+        "hasGif": false,
+        "filePath": "screenshots/qu4k.jpeg",
+        "timestamp": 1595411433925
       }
     ]
   },
@@ -369,6 +376,13 @@
         "hasGif": false,
         "filePath": "screenshots/alx365.jpeg",
         "timestamp": 1595410522243
+      },
+      {
+        "githubUrl": "https://github.com/halfrost",
+        "nickName": "一缕殇流化隐半边冰霜",
+        "hasGif": false,
+        "filePath": "screenshots/halfrost.jpeg",
+        "timestamp": 1595411438010
       }
     ]
   },
@@ -715,6 +729,25 @@
         "hasGif": true,
         "filePath": "screenshots/Raymo111.jpeg",
         "timestamp": 1595377833989
+      }
+    ]
+  },
+  {
+    "categoryName": "Retro 😎",
+    "list": [
+      {
+        "githubUrl": "https://github.com/BrunnerLivio",
+        "nickName": "Livio Brunner",
+        "hasGif": true,
+        "filePath": "screenshots/BrunnerLivio.jpeg",
+        "timestamp": 1595411442005
+      },
+      {
+        "githubUrl": "https://github.com/fnky",
+        "nickName": "Christian Petersen",
+        "hasGif": true,
+        "filePath": "screenshots/fnky.jpeg",
+        "timestamp": 1595411449237
       }
     ]
   }
