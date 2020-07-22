@@ -362,6 +362,13 @@
         "hasGif": false,
         "filePath": "screenshots/novatorem.jpeg",
         "timestamp": 1595377843345
+      },
+      {
+        "githubUrl": "https://github.com/alx365",
+        "nickName": "alx365",
+        "hasGif": false,
+        "filePath": "screenshots/alx365.jpeg",
+        "timestamp": 1595410522243
       }
     ]
   },
@@ -578,6 +585,13 @@
         "hasGif": true,
         "filePath": "screenshots/xrkffgg.jpeg",
         "timestamp": 1595269238214
+      },
+      {
+        "githubUrl": "https://github.com/RaghavK16",
+        "nickName": "Raghav Khullar",
+        "hasGif": true,
+        "filePath": "screenshots/RaghavK16.jpeg",
+        "timestamp": 1595410525630
       }
     ]
   },
