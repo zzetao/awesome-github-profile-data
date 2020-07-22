@@ -245,6 +245,13 @@
         "hasGif": false,
         "filePath": "screenshots/you-create.jpeg",
         "timestamp": 1595164744666
+      },
+      {
+        "githubUrl": "https://github.com/sakshamtaneja21",
+        "nickName": "Saksham Taneja",
+        "hasGif": true,
+        "filePath": "screenshots/sakshamtaneja21.jpeg",
+        "timestamp": 1595377838801
       }
     ]
   },
@@ -348,6 +355,13 @@
         "hasGif": false,
         "filePath": "screenshots/C9-LinkRs.jpeg",
         "timestamp": 1595215237417
+      },
+      {
+        "githubUrl": "https://github.com/novatorem",
+        "nickName": "Andrew Novac",
+        "hasGif": false,
+        "filePath": "screenshots/novatorem.jpeg",
+        "timestamp": 1595377843345
       }
     ]
   },
@@ -475,6 +489,13 @@
         "hasGif": false,
         "filePath": "screenshots/maximousblk.jpeg",
         "timestamp": 1595269229660
+      },
+      {
+        "githubUrl": "https://github.com/AlexMartinFR",
+        "nickName": "Alex Martin",
+        "hasGif": false,
+        "filePath": "screenshots/AlexMartinFR.jpeg",
+        "timestamp": 1595377846559
       }
     ]
   },
@@ -668,6 +689,18 @@
         "hasGif": false,
         "filePath": "screenshots/dereknguyen269.jpeg",
         "timestamp": 1595165042515
+      }
+    ]
+  },
+  {
+    "categoryName": "A Little Bit of Everything 😃",
+    "list": [
+      {
+        "githubUrl": "https://github.com/Raymo111",
+        "nickName": "Raymond Li",
+        "hasGif": true,
+        "filePath": "screenshots/Raymo111.jpeg",
+        "timestamp": 1595377833989
       }
     ]
   }
