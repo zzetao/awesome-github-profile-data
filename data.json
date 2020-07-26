@@ -390,6 +390,13 @@
         "hasGif": false,
         "filePath": "screenshots/halfrost.jpeg",
         "timestamp": 1595411438010
+      },
+      {
+        "githubUrl": "https://github.com/sriharikapu",
+        "nickName": "Srihari Kapu",
+        "hasGif": false,
+        "filePath": "screenshots/sriharikapu.jpeg",
+        "timestamp": 1595744670813
       }
     ]
   },
@@ -693,6 +700,13 @@
         "hasGif": true,
         "filePath": "screenshots/ileriayo.jpeg",
         "timestamp": 1595427206406
+      },
+      {
+        "githubUrl": "https://github.com/samujjwaal",
+        "nickName": "Samujjwaal Dey",
+        "hasGif": false,
+        "filePath": "screenshots/samujjwaal.jpeg",
+        "timestamp": 1595744675014
       }
     ]
   },
