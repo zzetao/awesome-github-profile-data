@@ -127,6 +127,13 @@
         "hasGif": false,
         "filePath": "screenshots/ouuan.jpeg",
         "timestamp": 1595745338485
+      },
+      {
+        "githubUrl": "https://github.com/vidyabhandary",
+        "nickName": "Vidya Bhandary",
+        "hasGif": false,
+        "filePath": "screenshots/vidyabhandary.jpeg",
+        "timestamp": 1595870394545
       }
     ]
   },
@@ -273,6 +280,13 @@
         "hasGif": true,
         "filePath": "screenshots/sakshamtaneja21.jpeg",
         "timestamp": 1595377838801
+      },
+      {
+        "githubUrl": "https://github.com/keshavsingh4522",
+        "nickName": "Keshav Singh",
+        "hasGif": false,
+        "filePath": "screenshots/keshavsingh4522.jpeg",
+        "timestamp": 1595870398230
       }
     ]
   },
@@ -674,6 +688,13 @@
         "hasGif": false,
         "filePath": "screenshots/oussamabouchikhi.jpeg",
         "timestamp": 1595165002410
+      },
+      {
+        "githubUrl": "https://github.com/dailyrandomphoto",
+        "nickName": "Daily Random Photo",
+        "hasGif": false,
+        "filePath": "screenshots/dailyrandomphoto.jpeg",
+        "timestamp": 1595870401798
       }
     ]
   },
