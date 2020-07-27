@@ -134,6 +134,13 @@
         "hasGif": false,
         "filePath": "screenshots/vidyabhandary.jpeg",
         "timestamp": 1595870394545
+      },
+      {
+        "githubUrl": "https://github.com/RaoHai",
+        "nickName": "Rao Hai",
+        "hasGif": false,
+        "filePath": "screenshots/RaoHai.jpeg",
+        "timestamp": 1595871300100
       }
     ]
   },
@@ -207,6 +214,13 @@
         "hasGif": false,
         "filePath": "screenshots/MartonDev.jpeg",
         "timestamp": 1595326333231
+      },
+      {
+        "githubUrl": "https://github.com/martonlederer",
+        "nickName": "Marton",
+        "hasGif": false,
+        "filePath": "screenshots/martonlederer.jpeg",
+        "timestamp": 1595871303998
       }
     ]
   },
@@ -648,6 +662,13 @@
         "hasGif": true,
         "filePath": "screenshots/RaghavK16.jpeg",
         "timestamp": 1595410525630
+      },
+      {
+        "githubUrl": "https://github.com/KevCui",
+        "nickName": "Kevin Cui",
+        "hasGif": false,
+        "filePath": "screenshots/KevCui.jpeg",
+        "timestamp": 1595871311598
       }
     ]
   },
@@ -799,6 +820,13 @@
         "hasGif": true,
         "filePath": "screenshots/Raymo111.jpeg",
         "timestamp": 1595377833989
+      },
+      {
+        "githubUrl": "https://github.com/MartinHeinz",
+        "nickName": "Martin Heinz",
+        "hasGif": true,
+        "filePath": "screenshots/MartinHeinz.jpeg",
+        "timestamp": 1595871307676
       }
     ]
   },
