@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer')
+const sharp = require('sharp')
 
 const windowWidth = 1400
 const minWindinHeight = 800
@@ -13,7 +14,7 @@ module.exports = async function capture(urls = [], successCallback) {
         console.log('capture url', url)
 
         const page = await browser.newPage()
-        await page.goto(url, { waitUntil: 'load' })
+        await page.goto(url, { waitUntil: 'networkidle0' })
 
         await page.setViewport({
             width: windowWidth,
@@ -37,9 +38,11 @@ module.exports = async function capture(urls = [], successCallback) {
         // min height
         domHeight = Math.max(domHeight, minWindinHeight)
 
+        const windowHeight = domHeight + 200
+
         await page.setViewport({
             width: windowWidth,
-            height: domHeight + 200,
+            height: windowHeight,
         })
 
         // remove signup prompt
@@ -60,21 +63,29 @@ module.exports = async function capture(urls = [], successCallback) {
 
         let filePath = getFilePath(url)
 
-        await page.screenshot({
-            path: filePath,
-            quality: 50,
+        const buffer = await page.screenshot({
             clip: {
                 width: windowWidth,
-                height: domHeight,
+                height: windowHeight - 92 - 2,
                 x: 0,
                 y: 92, // remove navbar
             },
         })
 
+        const result = await sharp(buffer)
+            .resize(800)
+            .jpeg({
+                quality: 50
+            })
+            .toFile(filePath)
+
         successCallback({
             githubUrl: url,
             hasGif,
             filePath,
+            height: result.height,
+            width: result.width,
+            size: result.size
         })
 
         await page.close()
@@ -86,7 +97,6 @@ module.exports = async function capture(urls = [], successCallback) {
 }
 
 function getFilePath(githubUrl) {
-    let now = +new Date()
     let username = githubUrl.slice(githubUrl.lastIndexOf('/') + 1)
     return `screenshots/${username}.jpeg`
 }

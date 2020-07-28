@@ -5,6 +5,9 @@ const fs = require('fs')
 let data = getDataJSON()
 
 async function main() {
+    /**
+     * { categoryName, list: [ { githubUrl, nickName } ] }
+     */
     let latestData = await getLatestData()
 
     // add properties
@@ -24,7 +27,7 @@ async function main() {
 
     await capture(
         diffData.map((item) => item.githubUrl),
-        ({ githubUrl, hasGif, filePath }) => {
+        ({ githubUrl, hasGif, filePath, width, height }) => {
             // update data.json
             const item = diffData.find((cur) => cur.githubUrl === githubUrl)
             if (item) {
@@ -34,6 +37,8 @@ async function main() {
                 item.hasGif = hasGif
                 item.filePath = filePath
                 item.timestamp = +new Date()
+                item.width = width
+                item.height = height
 
                 writeJSON(categoryName, item)
             }

@@ -10,7 +10,8 @@
     "@dimerapp/markdown": "^3.2.2",
     "puppeteer": "^5.2.0",
     "request": "^2.88.2",
-    "request-promise": "^4.2.5"
+    "request-promise": "^4.2.5",
+    "sharp": "^0.25.4"
   },
   "repository": {
     "type": "git",
