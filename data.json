@@ -181,6 +181,24 @@
         "timestamp": 1595921729789,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/blackcater",
+        "nickName": "Elon Tang (blackcater)",
+        "hasGif": true,
+        "filePath": "screenshots/blackcater.jpeg",
+        "timestamp": 1596132820458,
+        "width": 800,
+        "height": 587
+      },
+      {
+        "githubUrl": "https://github.com/gargakshit",
+        "nickName": "Akshit Garg (gargakshit)",
+        "hasGif": true,
+        "filePath": "screenshots/gargakshit.jpeg",
+        "timestamp": 1596132825528,
+        "width": 800,
+        "height": 550
       }
     ]
   },
@@ -331,6 +349,15 @@
         "timestamp": 1595922025175,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/andyruwruw",
+        "nickName": "andyruwruw",
+        "hasGif": false,
+        "filePath": "screenshots/andyruwruw.jpeg",
+        "timestamp": 1596132830599,
+        "width": 800,
+        "height": 921
       }
     ]
   },
@@ -770,6 +797,15 @@
         "timestamp": 1596131413510,
         "width": 800,
         "height": 754
+      },
+      {
+        "githubUrl": "https://github.com/ChungZH",
+        "nickName": "ChungZH",
+        "hasGif": false,
+        "filePath": "screenshots/ChungZH.jpeg",
+        "timestamp": 1596132838038,
+        "width": 800,
+        "height": 518
       }
     ]
   },
