@@ -208,6 +208,15 @@
         "timestamp": 1596244425787,
         "width": 800,
         "height": 522
+      },
+      {
+        "githubUrl": "https://github.com/jatin2003",
+        "nickName": "Jatin Rao",
+        "hasGif": false,
+        "filePath": "screenshots/jatin2003.jpeg",
+        "timestamp": 1596246579420,
+        "width": 800,
+        "height": 518
       }
     ]
   },
@@ -306,6 +315,15 @@
         "hasGif": false,
         "filePath": "screenshots/martonlederer.jpeg",
         "timestamp": 1595921788188,
+        "width": 800,
+        "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/rednafi",
+        "nickName": "Redowan Delowar",
+        "hasGif": false,
+        "filePath": "screenshots/rednafi.jpeg",
+        "timestamp": 1596246584291,
         "width": 800,
         "height": 518
       }
@@ -675,6 +693,15 @@
         "timestamp": 1595922110115,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/SuperSupeng",
+        "nickName": "SuperSupeng",
+        "hasGif": true,
+        "filePath": "screenshots/SuperSupeng.jpeg",
+        "timestamp": 1596246588920,
+        "width": 800,
+        "height": 518
       }
     ]
   },
@@ -827,6 +854,15 @@
         "hasGif": false,
         "filePath": "screenshots/ChungZH.jpeg",
         "timestamp": 1596132838038,
+        "width": 800,
+        "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/Aveek-Saha",
+        "nickName": "Aveek Saha",
+        "hasGif": false,
+        "filePath": "screenshots/Aveek-Saha.jpeg",
+        "timestamp": 1596246593171,
         "width": 800,
         "height": 518
       }
