@@ -217,6 +217,15 @@
         "timestamp": 1596246579420,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/teoxoy",
+        "nickName": "teoxoy",
+        "hasGif": false,
+        "filePath": "screenshots/teoxoy.jpeg",
+        "timestamp": 1596287523491,
+        "width": 800,
+        "height": 518
       }
     ]
   },
@@ -435,6 +444,24 @@
         "timestamp": 1596244430838,
         "width": 800,
         "height": 806
+      },
+      {
+        "githubUrl": "https://github.com/sciencepal",
+        "nickName": "Aditya Pal",
+        "hasGif": true,
+        "filePath": "screenshots/sciencepal.jpeg",
+        "timestamp": 1596287528495,
+        "width": 800,
+        "height": 786
+      },
+      {
+        "githubUrl": "https://github.com/xunzhuo",
+        "nickName": "Xunzhuo",
+        "hasGif": false,
+        "filePath": "screenshots/xunzhuo.jpeg",
+        "timestamp": 1596287532949,
+        "width": 800,
+        "height": 583
       }
     ]
   },
@@ -643,6 +670,15 @@
         "timestamp": 1595922044399,
         "width": 800,
         "height": 528
+      },
+      {
+        "githubUrl": "https://github.com/arturssmirnovs",
+        "nickName": "Arturs Smirnovs",
+        "hasGif": false,
+        "filePath": "screenshots/arturssmirnovs.jpeg",
+        "timestamp": 1596287537880,
+        "width": 800,
+        "height": 518
       }
     ]
   },
@@ -725,6 +761,15 @@
         "timestamp": 1596244436906,
         "width": 800,
         "height": 1425
+      },
+      {
+        "githubUrl": "https://github.com/edisonlee55",
+        "nickName": "edisonlee55",
+        "hasGif": false,
+        "filePath": "screenshots/edisonlee55.jpeg",
+        "timestamp": 1596287543853,
+        "width": 800,
+        "height": 802
       }
     ]
   },
