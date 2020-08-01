@@ -249,6 +249,15 @@
         "timestamp": 1595921756629,
         "width": 800,
         "height": 852
+      },
+      {
+        "githubUrl": "https://github.com/rossjrw",
+        "nickName": "Ross Williams",
+        "hasGif": false,
+        "filePath": "screenshots/rossjrw.jpeg",
+        "timestamp": 1596244910616,
+        "width": 800,
+        "height": 575
       }
     ]
   },
@@ -942,6 +951,15 @@
         "timestamp": 1595922307498,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/muskanrani",
+        "nickName": "Muskan Rani",
+        "hasGif": false,
+        "filePath": "screenshots/muskanrani.jpeg",
+        "timestamp": 1596244915703,
+        "width": 800,
+        "height": 618
       }
     ]
   },
