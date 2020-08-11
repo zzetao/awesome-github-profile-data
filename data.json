@@ -226,6 +226,15 @@
         "timestamp": 1596287523491,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/d-koppenhagen",
+        "nickName": "Danny Koppenhagen",
+        "hasGif": false,
+        "filePath": "screenshots/d-koppenhagen.jpeg",
+        "timestamp": 1597183988491,
+        "width": 800,
+        "height": 1364
       }
     ]
   },
@@ -462,6 +471,15 @@
         "timestamp": 1596287532949,
         "width": 800,
         "height": 583
+      },
+      {
+        "githubUrl": "https://github.com/rafnixg",
+        "nickName": "Rafnix Guzmán",
+        "hasGif": false,
+        "filePath": "screenshots/rafnixg.jpeg",
+        "timestamp": 1597183993902,
+        "width": 800,
+        "height": 793
       }
     ]
   },
