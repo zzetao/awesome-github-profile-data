@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer')
 const sharp = require('sharp')
 
 const windowWidth = 1400
-const minWindinHeight = 800
+const minWindowHeight = 800
 
 module.exports = async function capture(urls = [], successCallback) {
     if (urls.length === 0) return
@@ -35,8 +35,11 @@ module.exports = async function capture(urls = [], successCallback) {
             continue
         }
 
-        // min height
-        domHeight = Math.max(domHeight, minWindinHeight)
+        // limit height
+        domHeight = Math.min(
+            Math.max(domHeight, minWindowHeight),
+            2000 // max height
+        )
 
         const windowHeight = domHeight + 200
 
