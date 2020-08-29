@@ -82,7 +82,7 @@ module.exports = async function capture(urls = [], successCallback) {
             .jpeg({
                 quality: 50
             })
-            .toFile(filePath)
+            .toFile(path.resolve(process.cwd(), filePath))
 
         successCallback({
             githubUrl: url,
@@ -103,5 +103,5 @@ module.exports = async function capture(urls = [], successCallback) {
 
 function getFilePath(githubUrl) {
     let username = githubUrl.slice(githubUrl.lastIndexOf('/') + 1)
-    return path.resolve(process.cwd(), `screenshots/${username}.jpeg`)
+    return `screenshots/${username}.jpeg`
 }

@@ -3,7 +3,7 @@ const path = require('path')
 
 const DATA_JSON_FILE_NAME = 'data.json'
 
-function writeJSON(data, categoryName, item) {
+function updateJSON(data, categoryName, item) {
     let category = data.find((item) => item.categoryName === categoryName)
     if (!category) {
         category = {
@@ -15,10 +15,17 @@ function writeJSON(data, categoryName, item) {
 
     category.list.push(item)
 
-    const path = paht.resolve(process.cwd(), DATA_JSON_FILE_NAME)
-    fs.writeFile(path, JSON.stringify(data, null, 2), function (err) {
-        if (err) throw err
-    })
+    writeJSON(data)
+}
+
+function writeJSON(data) {
+    fs.writeFile(
+        path.resolve(process.cwd(), DATA_JSON_FILE_NAME),
+        JSON.stringify(data, null, 2),
+        function (err) {
+            if (err) throw err
+        }
+    )
 }
 
 function getDataJSON() {
@@ -72,5 +79,6 @@ module.exports = {
     convertGithubUrl,
     getDataJSON,
     writeJSON,
+    updateJSON,
     delay
 }

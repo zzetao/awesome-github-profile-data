@@ -1,10 +1,9 @@
 const getLatestData = require('./markdown.js')
 const capture = require('./capture.js')
 
-const { arrayDiff, convertGithubUrl, getDataJSON, writeJSON } = require('./utils')
+const { arrayDiff, convertGithubUrl, getDataJSON, updateJSON } = require('./utils')
 
 let data = getDataJSON()
-console.log(data.length)
 
 main()
 
@@ -44,7 +43,7 @@ async function main() {
                 item.width = width
                 item.height = height
 
-                writeJSON(data, categoryName, item)
+                updateJSON(data, categoryName, item)
             }
         }
     )
