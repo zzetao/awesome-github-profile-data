@@ -1,8 +1,12 @@
 const getLatestData = require('./markdown.js')
 const capture = require('./capture.js')
-const fs = require('fs')
+
+const { arrayDiff, convertGithubUrl, getDataJSON, writeJSON } = require('./utils')
 
 let data = getDataJSON()
+console.log(data.length)
+
+main()
 
 async function main() {
     /**
@@ -14,7 +18,7 @@ async function main() {
     latestData = latestData.map((category) => {
         category.list = category.list.map((item) => {
             item.categoryName = category.categoryName
-            item.githubUrl = convertUrl(item.githubUrl)
+            item.githubUrl = convertGithubUrl(item.githubUrl)
             return item
         })
         return category
@@ -40,65 +44,8 @@ async function main() {
                 item.width = width
                 item.height = height
 
-                writeJSON(categoryName, item)
+                writeJSON(data, categoryName, item)
             }
         }
     )
-}
-
-main()
-
-function writeJSON(categoryName, item) {
-    let category = data.find((item) => item.categoryName === categoryName)
-    if (!category) {
-        category = {
-            categoryName,
-            list: [],
-        }
-        data.push(category)
-    }
-
-    category.list.push(item)
-
-    fs.writeFile('data.json', JSON.stringify(data, null, 2), function (err) {
-        if (err) throw err
-    })
-}
-
-function getDataJSON() {
-    try {
-        return require('./data.json') || []
-    } catch (e) {
-        return []
-    }
-}
-
-function convertUrl(url) {
-    if (!url) return url
-    let arr = url.split('/')
-    let username = ''
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === 'github.com') {
-            username = arr[i + 1]
-            break
-        }
-    }
-
-    return `https://github.com/${username}`
-}
-
-function arrayDiff(left = [], right = []) {
-    const set = new Set()
-    left.forEach((item) => {
-        set.add(item.githubUrl)
-    })
-
-    let res = []
-    right.forEach((item) => {
-        if (!set.has(item.githubUrl)) {
-            res.push(item)
-        }
-    })
-
-    return res
 }

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "capture": "node index.js"
+    "capture": "node src/index.js"
   },
   "dependencies": {
     "@dimerapp/markdown": "^3.2.2",

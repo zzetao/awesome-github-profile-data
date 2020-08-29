@@ -1,5 +1,7 @@
+const path = require('path')
 const puppeteer = require('puppeteer')
 const sharp = require('sharp')
+const { delay } = require('./utils')
 
 const windowWidth = 1400
 const minWindowHeight = 800
@@ -93,7 +95,7 @@ module.exports = async function capture(urls = [], successCallback) {
 
         await page.close()
 
-        await wait(2000)
+        await delay(2000)
     }
 
     await browser.close()
@@ -101,13 +103,5 @@ module.exports = async function capture(urls = [], successCallback) {
 
 function getFilePath(githubUrl) {
     let username = githubUrl.slice(githubUrl.lastIndexOf('/') + 1)
-    return `screenshots/${username}.jpeg`
-}
-
-function wait(time = 0) {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            resolve()
-        }, time)
-    })
+    return path.resolve(process.cwd(), `screenshots/${username}.jpeg`)
 }
