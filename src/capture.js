@@ -16,7 +16,12 @@ module.exports = async function capture(urls = [], successCallback) {
         console.log('capture url', url)
 
         const page = await browser.newPage()
-        await page.goto(url, { waitUntil: 'networkidle0' })
+        try {
+            await page.goto(url, { waitUntil: 'networkidle0' })
+        } catch(e) {
+            console.warn(e)
+            continue
+        }
 
         await page.setViewport({
             width: windowWidth,
