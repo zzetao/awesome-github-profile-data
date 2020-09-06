@@ -448,6 +448,15 @@
         "timestamp": 1597804001277,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/daniakash",
+        "nickName": "Dani Akash",
+        "hasGif": false,
+        "filePath": "screenshots/daniakash.jpeg",
+        "timestamp": 1599390689353,
+        "width": 800,
+        "height": 542
       }
     ]
   },
@@ -1000,6 +1009,15 @@
         "timestamp": 1598674235636,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/Zheeeng",
+        "nickName": "Zheeeng",
+        "hasGif": true,
+        "filePath": "screenshots/Zheeeng.jpeg",
+        "timestamp": 1599390695613,
+        "width": 800,
+        "height": 518
       }
     ]
   },
@@ -1131,6 +1149,24 @@
         "timestamp": 1598674235636,
         "width": 800,
         "height": 586
+      },
+      {
+        "githubUrl": "https://github.com/KelviNosse",
+        "nickName": "KelviNosse",
+        "hasGif": true,
+        "filePath": "screenshots/KelviNosse.jpeg",
+        "timestamp": 1599390700676,
+        "width": 800,
+        "height": 977
+      },
+      {
+        "githubUrl": "https://github.com/nilfalse",
+        "nickName": "nilfalse",
+        "hasGif": true,
+        "filePath": "screenshots/nilfalse.jpeg",
+        "timestamp": 1599390705451,
+        "width": 800,
+        "height": 518
       }
     ]
   },
