@@ -457,6 +457,33 @@
         "timestamp": 1599390689353,
         "width": 800,
         "height": 542
+      },
+      {
+        "githubUrl": "https://github.com/rusty-sj",
+        "nickName": "Rashmi Jadhav",
+        "hasGif": false,
+        "filePath": "screenshots/rusty-sj.jpeg",
+        "timestamp": 1599394525166,
+        "width": 800,
+        "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/zumrudu-anka",
+        "nickName": "Osman Durdağ",
+        "hasGif": false,
+        "filePath": "screenshots/zumrudu-anka.jpeg",
+        "timestamp": 1599394531707,
+        "width": 800,
+        "height": 826
+      },
+      {
+        "githubUrl": "https://github.com/iampavangandhi",
+        "nickName": "iampavangandhi",
+        "hasGif": true,
+        "filePath": "screenshots/iampavangandhi.jpeg",
+        "timestamp": 1599394538296,
+        "width": 800,
+        "height": 604
       }
     ]
   },
@@ -552,6 +579,24 @@
         "timestamp": 1597803418883,
         "width": 800,
         "height": 687
+      },
+      {
+        "githubUrl": "https://github.com/khalby786",
+        "nickName": "Khaleel Gibran",
+        "hasGif": false,
+        "filePath": "screenshots/khalby786.jpeg",
+        "timestamp": 1599394545074,
+        "width": 800,
+        "height": 911
+      },
+      {
+        "githubUrl": "https://github.com/apoorvtyagi",
+        "nickName": "Apoorv Tyagi",
+        "hasGif": true,
+        "filePath": "screenshots/apoorvtyagi.jpeg",
+        "timestamp": 1599394550358,
+        "width": 800,
+        "height": 1133
       }
     ]
   },
@@ -611,6 +656,15 @@
         "timestamp": 1598674235636,
         "width": 800,
         "height": 1203
+      },
+      {
+        "githubUrl": "https://github.com/vidursatija",
+        "nickName": "Vidur Satija",
+        "hasGif": false,
+        "filePath": "screenshots/vidursatija.jpeg",
+        "timestamp": 1599394555199,
+        "width": 800,
+        "height": 865
       }
     ]
   },
@@ -778,6 +832,15 @@
         "timestamp": 1597803423641,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/Defcon27",
+        "nickName": "Hemanth Kollipara",
+        "hasGif": true,
+        "filePath": "screenshots/Defcon27.jpeg",
+        "timestamp": 1599394560651,
+        "width": 800,
+        "height": 718
       }
     ]
   },
@@ -1018,6 +1081,15 @@
         "timestamp": 1599390695613,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/federico-dondi",
+        "nickName": "Federico Dondi",
+        "hasGif": false,
+        "filePath": "screenshots/federico-dondi.jpeg",
+        "timestamp": 1599394565254,
+        "width": 800,
+        "height": 535
       }
     ]
   },
@@ -1294,6 +1366,15 @@
         "timestamp": 1598688805108,
         "width": 800,
         "height": 617
+      },
+      {
+        "githubUrl": "https://github.com/xtenzQ",
+        "nickName": "Nikita Rusetskii",
+        "hasGif": false,
+        "filePath": "screenshots/xtenzQ.jpeg",
+        "timestamp": 1599394570007,
+        "width": 800,
+        "height": 518
       }
     ]
   },
