@@ -841,6 +841,24 @@
         "timestamp": 1599394560651,
         "width": 800,
         "height": 718
+      },
+      {
+        "githubUrl": "https://github.com/Terabyte17",
+        "nickName": "Yash Sahijwani",
+        "hasGif": true,
+        "filePath": "screenshots/Terabyte17.jpeg",
+        "timestamp": 1599531213958,
+        "width": 800,
+        "height": 727
+      },
+      {
+        "githubUrl": "https://github.com/onimur",
+        "nickName": "Onimur",
+        "hasGif": false,
+        "filePath": "screenshots/onimur.jpeg",
+        "timestamp": 1599531218536,
+        "width": 800,
+        "height": 669
       }
     ]
   },
@@ -1239,6 +1257,15 @@
         "timestamp": 1599390705451,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/rishavanand",
+        "nickName": "Rishav Anand",
+        "hasGif": false,
+        "filePath": "screenshots/rishavanand.jpeg",
+        "timestamp": 1599531223740,
+        "width": 800,
+        "height": 1024
       }
     ]
   },
@@ -1375,6 +1402,15 @@
         "timestamp": 1599394570007,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/Coordinate-Cat",
+        "nickName": "Oka",
+        "hasGif": false,
+        "filePath": "screenshots/Coordinate-Cat.jpeg",
+        "timestamp": 1599531230947,
+        "width": 800,
+        "height": 789
       }
     ]
   },
