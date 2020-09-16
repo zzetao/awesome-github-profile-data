@@ -38,7 +38,7 @@ module.exports = async function capture(urls = [], successCallback) {
 
         if (domHeight === 0) {
             console.warn('Unable to get dom, url: ', url)
-            await wait(2000)
+            await delay(2000)
             continue
         }
 
