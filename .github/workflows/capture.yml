@@ -19,6 +19,17 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: Cache node_modules
+      id: cache-node_modules
+      uses: actions/cache@v2.0.0
+      with:
+        path: |
+          ~/.npm
+          node_modules
+          ${{ steps.npm-cache.outputs.dir }}
+        key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: ${{ runner.os }}-node-
+
     - name: Install Dep
       uses: ianwalter/puppeteer@3.0.2
       with:
