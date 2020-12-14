@@ -642,6 +642,33 @@
         "timestamp": 1607850581326,
         "width": 800,
         "height": 919
+      },
+      {
+        "githubUrl": "https://github.com/claytonjhamilton",
+        "nickName": "Clayton Hamilton",
+        "hasGif": true,
+        "filePath": "screenshots/claytonjhamilton.jpeg",
+        "timestamp": 1607937470689,
+        "width": 800,
+        "height": 699
+      },
+      {
+        "githubUrl": "https://github.com/cheesits456",
+        "nickName": "Quin Knight",
+        "hasGif": true,
+        "filePath": "screenshots/cheesits456.jpeg",
+        "timestamp": 1607937478050,
+        "width": 800,
+        "height": 1044
+      },
+      {
+        "githubUrl": "https://github.com/Jackyu-1999",
+        "nickName": "Jackyu-1999",
+        "hasGif": false,
+        "filePath": "screenshots/Jackyu-1999.jpeg",
+        "timestamp": 1607937483168,
+        "width": 800,
+        "height": 643
       }
     ]
   },
@@ -710,6 +737,15 @@
         "timestamp": 1606783402375,
         "width": 800,
         "height": 831
+      },
+      {
+        "githubUrl": "https://github.com/theabbie",
+        "nickName": "TheAbbie",
+        "hasGif": false,
+        "filePath": "screenshots/theabbie.jpeg",
+        "timestamp": 1607937490722,
+        "width": 800,
+        "height": 1203
       }
     ]
   },
@@ -1004,6 +1040,15 @@
         "timestamp": 1606783402375,
         "width": 800,
         "height": 683
+      },
+      {
+        "githubUrl": "https://github.com/PrincessAkira",
+        "nickName": "Yukii",
+        "hasGif": false,
+        "filePath": "screenshots/PrincessAkira.jpeg",
+        "timestamp": 1607937495454,
+        "width": 800,
+        "height": 1203
       }
     ]
   },
@@ -1162,6 +1207,15 @@
         "timestamp": 1606783402375,
         "width": 800,
         "height": 521
+      },
+      {
+        "githubUrl": "https://github.com/tallguyjenks",
+        "nickName": "TallGuyJenks",
+        "hasGif": false,
+        "filePath": "screenshots/tallguyjenks.jpeg",
+        "timestamp": 1607937500372,
+        "width": 800,
+        "height": 518
       }
     ]
   },
@@ -1474,6 +1528,15 @@
         "timestamp": 1607850585653,
         "width": 800,
         "height": 1063
+      },
+      {
+        "githubUrl": "https://github.com/rafi0101",
+        "nickName": "Raphael Ebner",
+        "hasGif": false,
+        "filePath": "screenshots/rafi0101.jpeg",
+        "timestamp": 1607937505843,
+        "width": 800,
+        "height": 766
       }
     ]
   },
