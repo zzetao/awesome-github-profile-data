@@ -58,7 +58,9 @@ module.exports = async function capture(urls = [], successCallback) {
         // remove signup prompt
         await page.evaluate(() => {
             var prompt = document.getElementsByClassName('signup-prompt')[0]
-            prompt.parentElement.removeChild(prompt)
+            if (prompt && prompt.parentElement) {
+                prompt.parentElement.removeChild(prompt)
+            }
         })
 
         // gif
