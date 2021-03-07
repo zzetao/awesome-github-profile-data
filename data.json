@@ -339,6 +339,15 @@
         "timestamp": 1614676104789,
         "width": 800,
         "height": 597
+      },
+      {
+        "githubUrl": "https://github.com/marcizhu",
+        "nickName": "marcizhu",
+        "hasGif": false,
+        "filePath": "screenshots/marcizhu.jpeg",
+        "timestamp": 1615108105694,
+        "width": 800,
+        "height": 881
       }
     ]
   },
@@ -1428,6 +1437,15 @@
         "timestamp": 1614416865615,
         "width": 800,
         "height": 1035
+      },
+      {
+        "githubUrl": "https://github.com/kmoroz",
+        "nickName": "Ksenia Morozova",
+        "hasGif": true,
+        "filePath": "screenshots/kmoroz.jpeg",
+        "timestamp": 1615108109859,
+        "width": 800,
+        "height": 518
       }
     ]
   },
