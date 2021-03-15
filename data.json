@@ -985,6 +985,15 @@
         "timestamp": 1613725672136,
         "width": 800,
         "height": 518
+      },
+      {
+        "githubUrl": "https://github.com/Wrapperup",
+        "nickName": "Matthew Taylor",
+        "hasGif": false,
+        "filePath": "screenshots/Wrapperup.jpeg",
+        "timestamp": 1615799283736,
+        "width": 800,
+        "height": 717
       }
     ]
   },
@@ -1673,6 +1682,15 @@
         "timestamp": 1614559555703,
         "width": 800,
         "height": 657
+      },
+      {
+        "githubUrl": "https://github.com/vbriand",
+        "nickName": "Valentin Briand",
+        "hasGif": false,
+        "filePath": "screenshots/vbriand.jpeg",
+        "timestamp": 1615799288627,
+        "width": 800,
+        "height": 523
       }
     ]
   },
