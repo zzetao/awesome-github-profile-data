@@ -1566,6 +1566,15 @@
     "categoryName": "Badges 🎫",
     "list": [
       {
+        "githubUrl": "https://github.com/neerfix",
+        "nickName": "Nicolas NOTARARIGO",
+        "hasGif": false,
+        "filePath": "screenshots/neerfix.jpeg",
+        "timestamp": 1634346140925,
+        "width": 800,
+        "height": 518
+      },
+      {
         "githubUrl": "https://github.com/aemmadi",
         "nickName": "Anirudh Emmadi",
         "hasGif": true,
