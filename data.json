@@ -1753,4 +1753,20 @@
       }
     ]
   }
+  ,
+{
+  "categoryName": "Minimalistic ✨",
+  "list": [
+    {
+      "githubUrl": "https://github.com/memo4code2",
+      "nickName": "memo4code2",
+      "hasGif": false,
+      "filePath": "screenshots/memo4code2.jpeg",
+      "timestamp": 1768000000000,
+      "width": 800,
+      "height": 518
+    }
+  ]
+}
+
 ]
